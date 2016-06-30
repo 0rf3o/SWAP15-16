@@ -18,7 +18,7 @@ con el comando: sudo passwd root
 haciendo uso del editor de texto vi lo creamos con la siguiente órden:
 sudo vi /var/www/html/hola.html
 
-## A continuación muestro capturas de pantalla con los resultados de esta práctica:
+### A continuación muestro capturas de pantalla con los resultados de esta práctica:
 
 # Versión de apache con el comando apache2 -v
 ![Version apache](Capturas/version_apache.png)
