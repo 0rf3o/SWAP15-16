@@ -30,7 +30,7 @@ for i in {0..9}; do siege -b -t20S http://192.168.0.197/hola.html > siege_$i.txt
 
 ![Imagen](Capturas/Captura_2.png)
 
-Los datos obtenidos los podemos encontrar ! [aquí]()
+Los datos obtenidos los podemos encontrar ! [aquí](https://github.com/0rf3o/SWAP15-16/tree/master/Practica%204/datos)
 
 #Resultados
 
@@ -39,7 +39,9 @@ Los Resultados obtenidos los podemos observar en las siguientes imágenes:
 #Para ab
 
 ![Imagen](Capturas/Captura_3.png)
+![Imagen](Capturas/Captura_5.png)
 
 #Para siege
 
 ![Imagen](Capturas/Captura_4.png)
+![Imagen](Capturas/Captura_6.png)
