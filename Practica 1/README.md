@@ -1,6 +1,6 @@
-Juan Borja Álvarez Peralta
-### Práctica 1.  Preparación de las herramientas
 
+### Práctica 1.  Preparación de las herramientas
+Juan Borja Álvarez Peralta
 ## Instalación de Máquinas Virtuales.
 
 #1. Descargamos el software de virtualización VirtualBox desde:
