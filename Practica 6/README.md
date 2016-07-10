@@ -65,4 +65,8 @@ Agregamos un  nuevo disco
 sudo mdadm --manage --add /dev/md127 /dev/sdb
 
  ![imagen](Capturas/Captura_12.png)
+ 
+ Comprobamos como se va reconstruyendo el disco:
+ 
+ ![imagen](Capturas/Captura_13.png)
 
