@@ -38,7 +38,7 @@ A continuación desde la otra maquina virtual vamos a proceder a copiar los dato
 Con el archivo de copia de seguridad en el esclavo ya podemos importar la BD
 completa en el MySQL. Para ello, en un primer paso creamos la BD:
 
-# mysql -uroot -p
+ mysql -uroot -p
 mysql> create database contactos;
 mysql> quit
 
