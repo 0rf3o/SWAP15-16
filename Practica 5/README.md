@@ -21,7 +21,7 @@ estar actualizándose constantemente en el servidor de BD principal. En este cas
 antes de hacer la copia de seguridad en el archivo .SQL debemos evitar que se
 acceda a la BD para cambiar nada.
 
-Asi que escribimos FLUSH TABLES WITH READ LOCK;
+Así que escribimos FLUSH TABLES WITH READ LOCK;
 ![imagen](Capturas/Captura_3.png)
 
 Una vez bloqueada la escritura en la db, volcamos la copia con el siguiente comando:
@@ -31,7 +31,7 @@ mysqldump contactos -u root -p > /root/contactos.sql
 Una vez hecho procedemos a desbloquear la db como podemos observar en la siguiente captura.
 ![imagen](Capturas/Captura_4.png)
 
-A continuación desde la otra maquina virtual vamos a proceder a copiar los datos.
+A continuación desde la otra máquina virtual vamos a proceder a copiar los datos.
 
 ![imagen](Capturas/Captura_5.png)
 
@@ -86,7 +86,7 @@ Comprobamos que todo ha ido bien en el esclavo con: "“SHOW SLAVE STATUS\G”"
 
 ![imagen](Capturas/Captura_15.png)
 
-a continuación mostramos que todo funciona correctamente insertando algunos datos y comprobando que se actualiza,en la siguiente imagen podemos comprobarlo.
+A continuación mostramos que todo funciona correctamente insertando algunos datos y comprobando que se actualiza,en la siguiente imagen podemos comprobarlo.
 ![imagen](Capturas/Captura_16.png)
 
 ##Replicación de BD mediante una configuración maestro-maestro:
