@@ -13,10 +13,10 @@ Juan Borja Álvarez Peralta
 Instalamos dicho Ubuntu Server instalando a la vez las utilidades de LAMP y ssh
 
 #4.Creamos una contraseña para el usuario root para cada máquina
-con el comando: sudo passwd root
+Con el comando: sudo passwd root
 
 #5.Creamos el archivo "hola.html" en /var/www/html/hola.html para cada máquina
-haciendo uso del editor de texto vi lo creamos con la siguiente órden:
+Haciendo uso del editor de texto vi lo creamos con la siguiente orden:
 sudo vi /var/www/html/hola.html
 
 ### A continuación muestro capturas de pantalla con los resultados de esta práctica:
