@@ -1,4 +1,4 @@
-#Practica 6: Discos en RAID
+#Práctica 6: Discos en RAID
 Juan Borja Álvarez Peralta
 
 
@@ -38,8 +38,8 @@ en nuestro caso es md0 y Agregamos esta línea al fichero **/etc/fstab**
 
 ![imagen](Capturas/Captura_7.png)
 
-Despues de realizar estos pasos reinicié la máquina para comprobar que todo estaba correcto,y me di cuenta
-que cambio el nombre de md0 a md127.
+Después de realizar estos pasos reinicié la máquina para comprobar que todo estaba correcto,y me di cuenta
+que cambió el nombre de md0 a md127.
 
 Para comprobar que todo funciona vamos a simular fallos en los discos.
 
