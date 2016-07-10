@@ -1,5 +1,7 @@
-Juan Borja Álvarez Peralta
+
 ###Práctica 2:  Clonación de la información de un sitio web
+Juan Borja Álvarez Peralta
+
 
 El entorno de desarrollo de la práctica se va a realizar en virtualbox.
 Primeramente debemos de configurar las máquinas para que en la red se vean entre sí.
