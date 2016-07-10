@@ -1,5 +1,5 @@
 #Practica 4: Comprobar el rendimiento de servidores web
-
+Juan Borja Álvarez Peralta
 ##Introducción:
 
 Comprobaremos el rendimiento de nuestros servidores y del balanceador mediante la herramientas ab que viene incluida en MacOSX, y mediante siege.
