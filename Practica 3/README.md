@@ -18,19 +18,19 @@ Reiniciamos el servicio con "service nginx restart"
 ![imagen](Capturas/Captura_4.png)
 ![imagen](Capturas/Captura_5.png)
 
-procedemos a realizar la misma comprobación desde la propia máquina swap3 que hemos creado para el balanceador haciendo uso del comando:
+Procedemos a realizar la misma comprobación desde la propia máquina swap3 que hemos creado para el balanceador haciendo uso del comando:
 
 curl localhost/hola.html
 curl localhost/hola.html
 
 ![imagen](Capturas/Captura_6.png)
 
-vemos como primero carga el archivo hola.html de una máquina
+Vemos como primero carga el archivo hola.html de una máquina
 y luego el de la otra.
 
 ##Balanceo de carga con haproxy.
 
-Procedemos a instalar ha proxy con el siguiente comando: "sudo apt-get install haproxy"
+Procedemos a instalar haproxy con el siguiente comando: "sudo apt-get install haproxy"
 pero antes paramos nginx con "service nginx stop".
 Una vez instalado configuramos el archivo de haproxy y lo dejamos igual que en el guión.
 
@@ -39,7 +39,7 @@ Una vez instalado configuramos el archivo de haproxy y lo dejamos igual que en e
 Utilizamos el comando para reiniciar el servicio
 sudo /usr/sbin/haproxy -f /etc/haproxy/haproxy.cfg
 
-Vemos a continuacion que los header del index devuelve apache
+Vemos a continuación que los header del index devuelve apache
 
 ![imagen](Capturas/Captura_8.png)
 Volvamos a probar el balanceador con el comando:
