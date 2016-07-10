@@ -30,7 +30,7 @@ for i in {0..9}; do siege -b -t20S http://192.168.0.197/hola.html > siege_$i.txt
 
 ![Imagen](Capturas/Captura_2.png)
 
-Los datos obtenidos los podemos encontrar ! [aquí](https://github.com/0rf3o/SWAP15-16/tree/master/Practica%204/datos)
+Los datos obtenidos los podemos encontrar  [aquí](https://github.com/0rf3o/SWAP15-16/tree/master/Practica%204/datos)
 
 #Resultados
 
@@ -47,7 +47,7 @@ Los Resultados obtenidos los podemos observar en las siguientes imágenes:
 ![Imagen](Capturas/Captura_6.png)
 
 
-El resto de las gráficas podemos encontrarlas en el siguiente archivo de excel ! [aquí](https://github.com/0rf3o/SWAP15-16/blob/master/Practica%204/Practica_4.xlsx)
+El resto de las gráficas podemos encontrarlas en el siguiente archivo de excel  [aquí](https://github.com/0rf3o/SWAP15-16/blob/master/Practica%204/Practica_4.xlsx)
 
 Como conclusión *ab* solo mide el tiempo de conexión, por lo que en este benchmark muestra mejores tiempos la máquina swap2 que pasando por los balanceadores, sin embargo, usando *siege* se reducen el número de transacciones que fallan, esto es debido a que puede suportar mayor número de conexiones al poder compartir la carga.
 
