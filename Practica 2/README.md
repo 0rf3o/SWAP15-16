@@ -7,7 +7,7 @@ Para ello configuramos la red de cada una de ellas, nos metemos en configuració
 y en modo promiscuo le damos a permitir todo.
 
 A continuación inicio sesión en modo root, haciendo uso del siguiente comando le asignaremos una constraseña al usuario root
-"sudo passwd root"->activacion de root.
+"sudo passwd root"->activación de root.
 y ya podremos loguearnos con el usuario root.
 
 ##Crear un tar con ficheros locales en un equipo remoto
@@ -18,7 +18,7 @@ tar czf - home/borja | ssh borja@192.168.0.198 ‘cat >  ~/tar.tgz’
 
 ##Herramienta rsync
 Primero procedemos a instalar la herramienta rsync con el comando "sudo apt-get install rsync"
-Introducimos en la máquina 2 (swap2) el siguiente comando para poder copiar los archivos del directorio /var/www/ de una maquina virtual a otra (swap1):
+Introducimos en la máquina 2 (swap2) el siguiente comando para poder copiar los archivos del directorio /var/www/ de una máquina virtual a otra (swap1):
 rsync -avz -e root@192.168.0.197:/var/www/ /var/www/
 ![rsync](Capturas/Captura_2.png)
 
@@ -39,7 +39,7 @@ ssh-copy-id -i /root/.ssh/id_dsa.pub root@192.168.0.xxx
 ![ssh-copy-id swap1](Capturas/Captura_6.png)
 ![ssh-copy-id swap2](Capturas/Captura_7.png)
 
-observamos como ahora podemos acceder sin contrañseña
+Observamos como ahora podemos acceder sin contrañseña
 
 ![Sin contraseña swap1](Capturas/Captura_8.png)
 ![Sin contraseña  swap2](Capturas/Captura_9.png)
@@ -47,7 +47,7 @@ observamos como ahora podemos acceder sin contrañseña
 ##crontab
 Agregamos en el archivo crontab de swap2 una tarea para que se sincronice con swap1 para ello abrimos el archivo con el siguiente comando
 vi /etc/crontab
-y agregamos la siguiente linea al final del archivo
+y agregamos la siguiente línea al final del archivo
 
 0 * * * *  root rsync -avz -e ssh root@swap1:/var/www/ /var/www/
 
