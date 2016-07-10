@@ -33,7 +33,7 @@ Una vez hecho procedemos a desbloquear la db como podemos observar en la siguien
 
 A continuación desde la otra maquina virtual vamos a proceder a copiar los datos.
 
-![imagen](Capturas/Capture_5.png)
+![imagen](Capturas/Captura_5.png)
 
 Con el archivo de copia de seguridad en el esclavo ya podemos importar la BD
 completa en el MySQL. Para ello, en un primer paso creamos la BD:
